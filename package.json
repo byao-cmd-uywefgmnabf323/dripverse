@@ -2,7 +2,7 @@
   "name": "dripverse",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://byao-cmd-uywefgmnabf323.github.io/dripverse",
+  "homepage": "https://byao-cmd-uywefgmnabf323.github.io/dripverse/",
   "dependencies": {
     "@heroicons/react": "^2.0.18",
     "@react-google-maps/api": "^2.20.7",
