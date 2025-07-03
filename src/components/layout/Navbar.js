@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 
 const Navbar = () => {
+  const [showAddPost, setShowAddPost] = React.useState(false);
   const [isOpen, setIsOpen] = React.useState(false);
   const location = useLocation();
 
@@ -63,6 +64,46 @@ const Navbar = () => {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
               </svg>
             </button>
+            {/* Add Post Icon */}
+            <button
+              className="ml-3 p-1 rounded-full text-green-400 hover:text-green-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
+              onClick={() => setShowAddPost(true)}
+            >
+              <span className="sr-only">Add Post</span>
+              <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
+              </svg>
+            </button>
+            {/* Add Post Modal */}
+            {showAddPost && (
+              <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
+                <div className="bg-white rounded-xl p-8 w-full max-w-md mx-4 relative">
+                  <button
+                    className="absolute top-3 right-3 text-gray-400 hover:text-gray-600"
+                    onClick={() => setShowAddPost(false)}
+                  >
+                    <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                  <h2 className="text-xl font-bold mb-4 text-black">Create a Post</h2>
+                  <form className="flex flex-col gap-4">
+                    <input type="file" accept="image/*" className="border rounded p-2" />
+                    <textarea
+                      className="border rounded p-2"
+                      placeholder="Write a caption..."
+                      rows={3}
+                    />
+                    <button
+                      type="submit"
+                      className="mt-2 bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition"
+                    >
+                      Post
+                    </button>
+                  </form>
+                </div>
+              </div>
+            )}
           </div>
           <div className="flex items-center sm:hidden">
             <button
