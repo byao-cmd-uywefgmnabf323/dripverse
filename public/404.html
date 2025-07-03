@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="refresh" content="0; URL=/" />
+  </head>
+  <body>
+    <p>Redirecting...</p>
+    <script>
+      // Redirect all requests to the root (for React Router)
+      var l = window.location;
+      var path = l.pathname.replace(/^\/dripverse/, '');
+      window.location.replace('/dripverse/' + (path ? '#' + path : '') + l.search + l.hash);
+    </script>
+  </body>
+</html>
