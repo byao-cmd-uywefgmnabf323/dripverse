@@ -2,12 +2,8 @@ import React, { useState } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 
 const Feed = () => {
-  const navigate = useNavigate();
   const location = useLocation();
   const [selectedUniversity, setSelectedUniversity] = useState('All Universities');
-
-  // Check if we're coming from a post detail page
-  const fromPostDetail = location.state?.fromPostDetail;
 
   const posts = [
     {
@@ -203,7 +199,7 @@ const Feed = () => {
   );
 };
 
-export { Feed, PostDetail };
+export { PostDetail, Feed };
 
 // Add a route for post detail view
 const PostDetail = () => {
