@@ -9,13 +9,6 @@ const Feed = () => {
   // Check if we're coming from a post detail page
   const fromPostDetail = location.state?.fromPostDetail;
 
-  // Handle back button
-  const handleBack = () => {
-    if (fromPostDetail) {
-      navigate(-1);
-    }
-  };
-
   const posts = [
     {
       user: {

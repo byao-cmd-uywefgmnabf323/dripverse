@@ -24,10 +24,10 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-8">Social</h3>
             <ul className="space-y-6">
-              <li><a href="#" className="text-white hover:text-red-200">Instagram</a></li>
-              <li><a href="#" className="text-white hover:text-red-200">Twitter</a></li>
-              <li><a href="#" className="text-white hover:text-red-200">Facebook</a></li>
-              <li><a href="#" className="text-white hover:text-red-200">YouTube</a></li>
+              <li><button type="button" className="text-white hover:text-red-200">Instagram</button></li>
+              <li><button type="button" className="text-white hover:text-red-200">Twitter</button></li>
+              <li><button type="button" className="text-white hover:text-red-200">Facebook</button></li>
+              <li><button type="button" className="text-white hover:text-red-200">YouTube</button></li>
             </ul>
           </div>
           <div>
