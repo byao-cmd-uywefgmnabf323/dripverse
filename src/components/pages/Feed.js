@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { Link, useNavigate, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+
 
 const Feed = () => {
-  const location = useLocation();
   const [selectedUniversity, setSelectedUniversity] = useState('All Universities');
 
   const posts = [
@@ -199,7 +199,7 @@ const Feed = () => {
   );
 };
 
-export { PostDetail, Feed };
+export { Feed, PostDetail };
 
 // Add a route for post detail view
 const PostDetail = () => {
