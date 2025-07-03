@@ -96,7 +96,7 @@ const Shop = () => {
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {filteredProducts.map((product, index) => (
             <div key={index} className="bg-primary-500 rounded-xl shadow">
-              <img src={product.image} alt={product.name} className="w-full h-48 object-cover" />
+              <img src={process.env.PUBLIC_URL + product.image.replace('/dripverse', '')} alt={product.name} className="w-full h-48 object-cover" />
               <div className="p-4">
                 <h3 className="text-lg font-medium text-white">{product.name}</h3>
                 <p className="mt-1 text-sm text-white">{product.brand}</p>
