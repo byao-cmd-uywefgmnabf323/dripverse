@@ -15,52 +15,52 @@ const universityLocations = [
   {
     name: 'Stanford University',
     position: { lat: 37.4275, lng: -122.1697 },
-    logo: '/images/universities/stanford.png'
+    logo: '/dripverse/images/universities/stanford.png'
   },
   {
     name: 'UC Berkeley',
     position: { lat: 37.8719, lng: -122.2585 },
-    logo: '/images/universities/berkeley.png'
+    logo: '/dripverse/images/universities/berkeley.png'
   },
   {
     name: 'UCLA',
     position: { lat: 34.0689, lng: -118.4452 },
-    logo: '/images/universities/ucla.png'
+    logo: '/dripverse/images/universities/ucla.png'
   },
   {
     name: 'NYU',
     position: { lat: 40.7291, lng: -73.9965 },
-    logo: '/images/universities/nyu.png'
+    logo: '/dripverse/images/universities/nyu.png'
   },
   {
     name: 'Columbia University',
     position: { lat: 40.8075, lng: -73.9626 },
-    logo: '/images/universities/columbia.png'
+    logo: '/dripverse/images/universities/columbia.png'
   },
   {
     name: 'University of Chicago',
     position: { lat: 41.7899, lng: -87.5962 },
-    logo: '/images/universities/chicago.png'
+    logo: '/dripverse/images/universities/chicago.png'
   },
   {
     name: 'University of Michigan',
     position: { lat: 42.2808, lng: -83.7430 },
-    logo: '/images/universities/michigan.png'
+    logo: '/dripverse/images/universities/michigan.png'
   },
   {
     name: 'Harvard University',
     position: { lat: 42.3767, lng: -71.1165 },
-    logo: '/images/universities/harvard.png'
+    logo: '/dripverse/images/universities/harvard.png'
   },
   {
     name: 'MIT',
     position: { lat: 42.3583, lng: -71.0923 },
-    logo: '/images/universities/mit.png'
+    logo: '/dripverse/images/universities/mit.png'
   },
   {
     name: 'University of Washington',
     position: { lat: 47.6539, lng: -122.3095 },
-    logo: '/images/universities/washington.png'
+    logo: '/dripverse/images/universities/washington.png'
   }
 ];
 

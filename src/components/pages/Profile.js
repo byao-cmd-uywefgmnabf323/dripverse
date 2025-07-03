@@ -17,26 +17,26 @@ const Profile = () => {
       { name: 'Style Pioneer', description: 'Early adopter of DripVerse' },
       { name: 'Style Ambassador', description: 'Represented campus style internationally' }
     ],
-    avatar: '/images/profiles/alex_chen.jpg',
+    avatar: '/dripverse/images/profiles/alex_chen.jpg',
   };
 
   const posts = [
     {
-      image: '/images/posts/stanford_supreme_nike.jpg',
+      image: '/dripverse/images/posts/stanford_supreme_nike.jpg',
       caption: 'New Supreme x Nike fit drop! #StanfordStyle',
       likes: 1850,
       comments: 320,
       timestamp: '1 hour ago',
     },
     {
-      image: '/images/posts/stanford_gucci.jpg',
+      image: '/dripverse/images/posts/stanford_gucci.jpg',
       caption: 'Just picked up the latest Gucci x Balenciaga collaboration! #LuxuryStreetwear',
       likes: 1650,
       comments: 280,
       timestamp: '2 hours ago',
     },
     {
-      image: '/images/posts/stanford_offwhite.jpg',
+      image: '/dripverse/images/posts/stanford_offwhite.jpg',
       caption: 'Dropped my new Off-White x Nike fit today! #StanfordStyle #StreetFashion',
       likes: 1450,
       comments: 240,

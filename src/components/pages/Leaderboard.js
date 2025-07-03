@@ -9,7 +9,7 @@ const Leaderboard = () => {
         name: 'Alex Chen',
         university: 'Stanford University',
         dripScore: 15200,
-        avatar: '/images/profiles/alex_chen.jpg',
+        avatar: '/dripverse/images/profiles/alex_chen.jpg',
       },
     },
     {
@@ -18,7 +18,7 @@ const Leaderboard = () => {
         name: 'Emily Johnson',
         university: 'UC Berkeley',
         dripScore: 14800,
-        avatar: '/images/profiles/emily_johnson.jpg',
+        avatar: '/dripverse/images/profiles/emily_johnson.jpg',
       },
     },
     {
@@ -27,7 +27,7 @@ const Leaderboard = () => {
         name: 'Mike Thompson',
         university: 'UCLA',
         dripScore: 14500,
-        avatar: '/images/profiles/mike_thompson.jpg',
+        avatar: '/dripverse/images/profiles/mike_thompson.jpg',
       },
     },
     {
@@ -36,7 +36,7 @@ const Leaderboard = () => {
         name: 'Sarah Williams',
         university: 'NYU',
         dripScore: 14200,
-        avatar: '/images/profiles/sarah_williams.jpg',
+        avatar: '/dripverse/images/profiles/sarah_williams.jpg',
       },
     },
     {
@@ -45,7 +45,7 @@ const Leaderboard = () => {
         name: 'David Kim',
         university: 'Columbia University',
         dripScore: 13900,
-        avatar: '/images/profiles/david_kim.jpg',
+        avatar: '/dripverse/images/profiles/david_kim.jpg',
       },
     },
     {
@@ -54,7 +54,7 @@ const Leaderboard = () => {
         name: 'Rachel Lee',
         university: 'University of Chicago',
         dripScore: 13600,
-        avatar: '/images/profiles/rachel_lee.jpg',
+        avatar: '/dripverse/images/profiles/rachel_lee.jpg',
       },
     },
     {
@@ -63,7 +63,7 @@ const Leaderboard = () => {
         name: 'James Brown',
         university: 'University of Michigan',
         dripScore: 13300,
-        avatar: '/images/profiles/james_brown.jpg',
+        avatar: '/dripverse/images/profiles/james_brown.jpg',
       },
     },
     {
@@ -72,7 +72,7 @@ const Leaderboard = () => {
         name: 'Jessica Chen',
         university: 'Harvard University',
         dripScore: 13000,
-        avatar: '/images/profiles/jessica_chen.jpg',
+        avatar: '/dripverse/images/profiles/jessica_chen.jpg',
       },
     },
     {
@@ -81,7 +81,7 @@ const Leaderboard = () => {
         name: 'William Tan',
         university: 'MIT',
         dripScore: 12700,
-        avatar: '/images/profiles/william_tan.jpg',
+        avatar: '/dripverse/images/profiles/william_tan.jpg',
       },
     },
     {
@@ -90,7 +90,7 @@ const Leaderboard = () => {
         name: 'Sophia Garcia',
         university: 'University of Texas',
         dripScore: 12400,
-        avatar: '/images/profiles/sophia_garcia.jpg',
+        avatar: '/dripverse/images/profiles/sophia_garcia.jpg',
       },
     }
   ];
@@ -99,52 +99,52 @@ const Leaderboard = () => {
     {
       name: 'Stanford University',
       dripScore: 150000,
-      logo: '/images/universities/stanford.png',
+      logo: '/dripverse/images/universities/stanford.png',
     },
     {
       name: 'UC Berkeley',
       dripScore: 145000,
-      logo: '/images/universities/berkeley.png',
+      logo: '/dripverse/images/universities/berkeley.png',
     },
     {
       name: 'UCLA',
       dripScore: 140000,
-      logo: '/images/universities/ucla.png',
+      logo: '/dripverse/images/universities/ucla.png',
     },
     {
       name: 'NYU',
       dripScore: 135000,
-      logo: '/images/universities/nyu.png',
+      logo: '/dripverse/images/universities/nyu.png',
     },
     {
       name: 'Columbia University',
       dripScore: 130000,
-      logo: '/images/universities/columbia.png',
+      logo: '/dripverse/images/universities/columbia.png',
     },
     {
       name: 'University of Chicago',
       dripScore: 125000,
-      logo: '/images/universities/chicago.png',
+      logo: '/dripverse/images/universities/chicago.png',
     },
     {
       name: 'University of Michigan',
       dripScore: 120000,
-      logo: '/images/universities/michigan.png',
+      logo: '/dripverse/images/universities/michigan.png',
     },
     {
       name: 'Harvard University',
       dripScore: 115000,
-      logo: '/images/universities/harvard.png',
+      logo: '/dripverse/images/universities/harvard.png',
     },
     {
       name: 'MIT',
       dripScore: 110000,
-      logo: '/images/universities/mit.png',
+      logo: '/dripverse/images/universities/mit.png',
     },
     {
       name: 'University of Washington',
       dripScore: 105000,
-      logo: '/images/universities/washington.png',
+      logo: '/dripverse/images/universities/washington.png',
     }
   ];
 
