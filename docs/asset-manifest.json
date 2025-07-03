@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/dripverse/static/css/main.042c8a56.css",
-    "main.js": "/dripverse/static/js/main.36f87bd8.js",
+    "main.js": "/dripverse/static/js/main.d65b602a.js",
     "index.html": "/dripverse/index.html",
     "main.042c8a56.css.map": "/dripverse/static/css/main.042c8a56.css.map",
-    "main.36f87bd8.js.map": "/dripverse/static/js/main.36f87bd8.js.map"
+    "main.d65b602a.js.map": "/dripverse/static/js/main.d65b602a.js.map"
   },
   "entrypoints": [
     "static/css/main.042c8a56.css",
-    "static/js/main.36f87bd8.js"
+    "static/js/main.d65b602a.js"
   ]
 }
